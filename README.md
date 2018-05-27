@@ -1,4 +1,6 @@
 # GPC2Macro
+Released as is.
+
 Converts ConsoleTuner's GPC2 script into GMK macro files.
 
 This is a mostly complete release of my Python 3 script to convert combos written in GPC2 script into macro files.
