@@ -7,12 +7,12 @@ extract every combo as a maco, naming the resulting macro after it's combo count
 
 The script even supports #defines.
 
-# Assumptions:
+# Assumptions
 Combos should only have basic set_val(); and wait(); commands in them.
 All params/values should not have any variables. 
 All IO inputs are using the default GPC Designators. E.G. "BUTTON_1"
 
-# Known Issues:
+# Known Issues
   Negative floating point values produce the wrong hex code (off by a small ammount.) I haven't figured out why.
 
 # Future Plans
