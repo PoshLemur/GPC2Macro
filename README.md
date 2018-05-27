@@ -13,7 +13,7 @@ All params/values should not have any variables.
 All IO inputs are using the default GPC Designators. E.G. "BUTTON_1"
 
 # Known Issues
-  Negative floating point values produce the wrong hex code (off by a small ammount.) I haven't figured out why.
+  Negative floating point values produce the wrong hex code (off by a small ammount) I haven't figured out why.
 
 # Future Plans
 Add support for PS4_ XBX_ and other console identifiers, as well as raw button index values.
