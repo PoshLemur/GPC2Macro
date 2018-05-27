@@ -1,0 +1,8 @@
+combo HelloPython {
+   /* { Ad; cillum ex consequat voluptate pariatur ullamco deserunt officia minim mollit. Officia pariatur minim// adipisicing id; laborum sit adipisicing aliqua consectetur enim ex Lorem ex aute. Enim et est exercitation ut ex exercitation laborum deserunt anim minim.; */
+
+   set_val( BUTTON_3, 100.0 ); // Proident reprehenderit Lorem consequat irure do ipsum laboris eu proident laborum.
+   wait(32768);
+   wait(1234);
+   set_val(BUTTON_1, -100.0);
+}

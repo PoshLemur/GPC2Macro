@@ -1,0 +1,44 @@
+#define this 	'h'
+#define myvar 			32
+#define buttonalias 	BUTTON_3
+#define hello 			-100.5
+
+init {
+  combo_run(first);
+  combo_run(second);
+}
+
+main {
+  printf("Hello!");
+  some_function();
+  combo_stop(first);
+  combo_pause(second);
+}
+
+void some_function {
+  printf("world!");
+}
+
+combo first {
+  set_val(buttonalias, 100.0);
+  set_val(BUTTON_1, 10.5);
+  set_val(BUTTON_2, -5.3);
+  set_val(BUTTON_3, -75.3);
+  set_val(BUTTON_4, 76.3);
+  set_val(BUTTON_5, 100.3);
+  set_val(BUTTON_6, -100);
+  wait(100);
+}
+
+combo second {
+  set_val(BUTTON_2, 100.0);
+  wait(100);
+}
+
+combo third {
+  set_val(buttonalias, hello);
+  call(first);
+}
+
+
+// This is a comment, it should be removed! } }} }
