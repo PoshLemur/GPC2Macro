@@ -7,7 +7,7 @@ This is a mostly complete release of my Python 3 script to convert combos writte
 I had plans to make the script more robust, but haven't gotten around to it. This script can take a full GPC2 script and
 extract every combo as a maco, naming the resulting macro after it's combo counterpart.
 
-The script even supports #defines.
+Supports calls to other combos and #defines.
 
 # Assumptions
 Combos should only have basic set_val(); and wait(); commands in them.
